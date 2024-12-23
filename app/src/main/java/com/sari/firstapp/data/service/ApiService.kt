@@ -1,4 +1,4 @@
-package com.sari.firstapp.data.remote
+package com.sari.firstapp.data.service
 
 import retrofit2.http.GET
 
