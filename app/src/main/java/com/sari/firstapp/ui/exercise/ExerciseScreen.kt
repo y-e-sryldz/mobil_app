@@ -1,4 +1,7 @@
 package com.sari.firstapp.ui.exercise
 
-class ExerciseScreen {
+import androidx.compose.runtime.Composable
+
+@Composable
+fun ExerciseListScreen() {
 }

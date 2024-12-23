@@ -1,4 +1,8 @@
 package com.sari.firstapp.data.local
 
-class UserDao {
+import androidx.room.Dao
+
+@Dao
+interface UserDao {
+
 }

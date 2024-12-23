@@ -1,4 +1,7 @@
 package com.sari.firstapp.ui.profile
 
-class ProfileScreen {
+import androidx.compose.runtime.Composable
+
+@Composable
+fun ProfileScreen() {
 }
