@@ -24,4 +24,7 @@ interface ApiService {
 
     @DELETE("api/user/deleteUser/{id}")
     fun deleteUser(@Path("id") id: String): Call<Void>
+
+    @POST("api/user/calculateBmi")
+    fun calculateUserBmi(@Body apiUserModel: ApiUserModel):Call<ApiUserModel>
 }
