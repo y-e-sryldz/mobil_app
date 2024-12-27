@@ -73,7 +73,7 @@ fun UserDisplay() {
         Text(text = "Kullanıcılar yükleniyor...")
     } else {
         users.forEach { user ->
-            Text(text = "ID: ${user.id}, Name: ${user.name}, Email: ${user.email}")
+            Text(text = "ID: ${user.id}, Name: ${user.name}, Email: ${user.email},Height:${user.height},Weight:${user.weight},BMI:${user.bmi}")
         }
     }
 }
