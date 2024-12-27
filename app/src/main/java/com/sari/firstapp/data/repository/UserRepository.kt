@@ -26,6 +26,7 @@ class UserRepository {
         }
     }
 
+
     suspend fun getUserById(id: String): Result<ApiUserModel> {
         return withContext(Dispatchers.IO) {
             try {
@@ -89,4 +90,5 @@ class UserRepository {
             }
         }
     }
+
 }
