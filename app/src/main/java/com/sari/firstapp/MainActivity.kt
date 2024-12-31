@@ -76,6 +76,7 @@ fun UserDisplay(repository: UserRepository) {
         } catch (e: Exception) {
             errorMessage = e.message
             Log.e("UserFetchError", "Exception occurred", e)
+
         }
     }
 
