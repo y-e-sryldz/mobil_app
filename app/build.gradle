@@ -76,4 +76,13 @@ dependencies {
     //broadcast receiver için
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.22"
     api "io.reactivex.rxjava3:rxjava:3.0.9"
+    //map sensor için
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'org.maplibre.gl:android-sdk:11.5.1' // MapLibre SDK, Kotlin 1.9 ile uyumlu
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0' // Retrofit
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0' // Gson Converter
+    implementation 'org.osmdroid:osmdroid-android:6.1.14'
+
 }
