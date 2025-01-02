@@ -1,6 +1,7 @@
 package com.sari.firstapp.data.repository
 
 import com.sari.firstapp.api.ApiService
+import com.sari.firstapp.data.local.UserDao
 import com.sari.firstapp.models.ApiUserModel
 import com.sari.firstapp.utils.RetrofitClient
 import kotlinx.coroutines.Dispatchers
@@ -26,7 +27,7 @@ class UserRepository {
         }
     }
 
-
+    // Kullanıcıları ID ile al
     suspend fun getUserById(id: String): Result<ApiUserModel> {
         return withContext(Dispatchers.IO) {
             try {
