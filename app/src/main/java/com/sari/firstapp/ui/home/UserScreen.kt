@@ -1,7 +1,5 @@
 package com.sari.firstapp.ui.home
-
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
@@ -13,7 +11,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.Observer
 import com.sari.firstapp.models.ApiUserModel
 import com.sari.firstapp.viewmodel.UserViewModel
 
