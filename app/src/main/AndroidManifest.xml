@@ -22,7 +22,7 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.sari.firstapp.ui.home.UserScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
