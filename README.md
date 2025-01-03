@@ -9,7 +9,7 @@ Bu proje, kullanıcıların spor aktivitelerini takip etmesini, sensörlerden ve
 - **RESTful API**: Retrofit (Android), Alamofire (iOS), Flask (Backend)
 - **UI**: Jetpack Compose (Android), SwiftUI (iOS), Flutter
 - **Arka Plan İşlemleri**: WorkManager, AlarmManager
-- **Sensörler**: SensorManager, Location
+- **Sensörler**: Location
 - **Bağlantı**: BluetoothAdapter, BLE (Bluetooth Low Energy)
 - **Kimlik Doğrulama**: OAuth, OpenID, JWT
 - **Bulut Hizmetleri**: Google Firebase, AWS Rekognition, TensorFlow
