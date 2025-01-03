@@ -108,7 +108,6 @@ fun UserDisplay(repository: UserRepository) {
     } else if (users.isEmpty()) {
 
     } else {
-
         LazyColumn(
 
         ) {
@@ -153,7 +152,6 @@ fun UserCard(user: ApiUserModel) {
                     style = MaterialTheme.typography.body2
                 )
             }
-
         }
     }
 }
